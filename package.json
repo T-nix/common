@@ -5,7 +5,7 @@
     "build": "tsc -p tsconfig.build.json",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\""
   },
-  "type": "module",
+  "type": "commonjs",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
