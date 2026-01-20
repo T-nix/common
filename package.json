@@ -1,6 +1,6 @@
 {
   "name": "@t-nix/common",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\""
