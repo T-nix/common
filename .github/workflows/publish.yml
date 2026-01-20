@@ -33,8 +33,11 @@ jobs:
           npm config set @T-nix:registry https://npm.pkg.github.com
           npm config set //npm.pkg.github.com/:_authToken=${{ secrets.SECRET_TOKEN }}
 
-      - run: npm ci
-      - run: npm run build
+      - name: Install pachages
+        run: npm ci
+
+      - name: Build pachages
+        run: npm run build
 
       - name: Bump patch version
         run: npm version patch --no-git-tag-version

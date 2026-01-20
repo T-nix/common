@@ -13,7 +13,6 @@
     "type": "git",
     "url": "git+https://github.com/T-nix/prettier.git"
   },
-  "license": "ISC",
   "dependencies": {
     "@nestjs/common": "^11.1.12",
     "@t-nix/prettier": "^1.0.5",
