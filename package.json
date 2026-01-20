@@ -1,7 +1,6 @@
 {
-  "name": "common",
+  "name": "@t-nix/common",
   "version": "1.0.2",
-  "main": "index.js",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\""
