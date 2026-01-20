@@ -6,9 +6,15 @@
     "build": "tsc -p tsconfig.build.json",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\""
   },
-  "author": "",
+  "type": "module",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T-nix/prettier.git"
+  },
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@nestjs/common": "^11.1.12",
     "@t-nix/prettier": "^1.0.5",
