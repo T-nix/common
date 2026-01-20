@@ -1,0 +1,22 @@
+{
+  "name": "common",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@nestjs/common": "^11.1.12",
+    "@t-nix/prettier": "^1.0.5",
+    "express": "^5.2.1",
+    "install": "^0.13.0",
+    "npm": "^11.7.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6"
+  }
+}
